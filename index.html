@@ -262,7 +262,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
         </div>
       </div>
       <p class="ai-summary">
-        This reporting period was intentionally non-executional. All 9 sequences were paused while the team conducted deep audience research, ultimately identifying that <strong>baby gifters</strong> (grandparents, friends, family) represent a stronger product-market fit than direct parent outreach. The core insight: Nearly Newborn is a digital course that can be <em>gifted</em> — the most natural buyer is someone looking for a meaningful baby shower or newborn gift, not the parent themselves. Two new sequences were built this period: <strong>GifterCribIntent</strong> (623 contacts, targeting Crib/Bedding purchase-intent signals) and <strong>Nursery Prep Parent</strong> (1,004 contacts). The GifterCribIntent sequence is the flagship — 4 steps configured, contacts loaded, ready to deploy the moment the email integration is reconnected. All-time metrics remain at baseline (3,781 executions, 64 opens, 1.69% open rate). The single active blocker is email reconnection. Once resolved, the gift-giver pivot can be tested with real engagement data.
+        This reporting period was intentionally non-executional. All 9 sequences were paused while the team conducted deep audience research across two angles: expecting-parent-direct and baby-gifter. The expecting-parent audience was audited and <strong>found non-viable</strong> — after removing age 35+ and failed skiptrace records, only ~57 real contacts with valid ages under 35 remained (~30 female). That's below the viable threshold for a self-enrollment expecting-parent sequence. The decisive finding: <strong>baby gifters</strong> (grandparents, friends, family) represent the strongest — and now sole — product-market fit. Nearly Newborn is a digital course that can be <em>gifted</em>, and the most natural buyer is someone searching for a meaningful baby shower or newborn gift. The new flagship sequence, <strong>GifterCribIntent</strong> (623 contacts), targets the "Crib Mattress and Bedding" purchase-intent signal — people actively buying for a baby. 4 steps configured, contacts loaded, ready to deploy the moment the email integration is reconnected. All-time metrics remain at baseline (3,781 executions, 64 opens, 1.69% open rate). The single active blocker is email reconnection. Once resolved, the gift-only angle can be tested, with the expectation that gift-focused messaging will outperform the baseline parent-direct approach on opens, clicks, and course signups.
       </p>
       <div class="ai-cards">
         <div class="ai-card">
@@ -275,7 +275,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
         </div>
         <div class="ai-card">
           <div class="ai-card-label">📦 Pipeline Snapshot</div>
-          <div class="ai-card-text">1,627 contacts loaded into 2 new sequences (GifterCribIntent: 623, Nursery Prep: 1,004). 1,117 additional contacts in Baby Prep Keywords list — unmapped, largest untapped pool.</div>
+          <div class="ai-card-text">623 contacts loaded into GifterCribIntent ("Crib Mattress and Bedding" intent signal). 1,117 additional contacts in Baby Prep Keywords list — unmapped, can be redirected to gift angle. Nursery Prep Parent sequence (1,004 contacts) deprioritized after audience audit found only ~30 viable female contacts under 35.</div>
         </div>
         <div class="ai-card">
           <div class="ai-card-label">🔄 Conversion Model</div>
@@ -314,9 +314,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
       <div class="kpi-card">
         <div class="kpi-label">Contacts in New Sequences</div>
         <div class="kpi-value">1,627</div>
-        <div class="kpi-sub">GifterCribIntent (623) + Nursery Prep Parent (1,004) — loaded and waiting.</div>
+        <div class="kpi-sub">GifterCribIntent — 623 gift-intent contacts loaded and ready. Nursery Prep Parent (1,004) deprioritized after audience audit.</div>
         <div class="kpi-source">Source: MMai Sequences</div>
-        <div class="kpi-delta">Δ: +1,627 · New contacts this period</div>
+        <div class="kpi-delta">Δ: +623 · Deployable gift-giver contacts</div>
       </div>
       <div class="kpi-card">
         <div class="kpi-label">Unique Clicks</div>
@@ -393,8 +393,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
     <div class="pipeline-callout">
       <div class="pipeline-callout-icon">📦</div>
       <div class="pipeline-callout-text">
-        <strong>1,627 contacts ready to deploy — zero sends needed to activate</strong>
-        <p>Both new sequences are fully built with contacts loaded. Once email is reconnected, the GifterCribIntent sequence (623 contacts) can begin executing immediately. The 333 pending approvals from Report #1 are still in queue and can be revised with gift-giver messaging before deployment.</p>
+        <strong>623 gift-intent contacts ready to deploy — zero sends needed to activate</strong>
+        <p>The GifterCribIntent sequence is fully built with 623 contacts loaded targeting the "Crib Mattress and Bedding" purchase-intent signal. Once email is reconnected, it can begin executing immediately. The 333 pending approvals from Report #1 are still in queue and can be revised with gift-focused messaging before deployment. Expecting-parent-direct angle deprioritized after audience audit found only ~30 viable female contacts under 35.</p>
       </div>
     </div>
   </section>
@@ -434,13 +434,13 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
             </tr>
             <tr style="background:var(--soft)">
               <td class="td-bold">Nursery Prep Parent Sequence</td>
-              <td><span class="tag tag-blue">✦ New (Paused)</span></td>
+              <td><span class="tag tag-red">✕ Deprioritized</span></td>
               <td>Expecting Parents</td>
               <td>1,004</td>
               <td>0</td>
               <td>—</td>
               <td>—</td>
-              <td>May 20, 2026</td>
+              <td>Built May 20 · <em>Non-viable audience (~30 female under 35)</em></td>
             </tr>
             <tr>
               <td class="td-bold">AI Intent Data – Baby Gifts Outreach</td>
@@ -494,7 +494,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
             </tr>
             <tr style="border-top:2px solid var(--gray-200);font-weight:700;background:var(--gray-50)">
               <td>TOTALS (9 sequences)</td>
-              <td>0 Active · 9 Paused</td>
+              <td>0 Active · 8 Paused · 1 Deprioritized</td>
               <td>—</td>
               <td>3,524</td>
               <td>3,781</td>
@@ -610,15 +610,15 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
       <div class="insight-item">
         <div class="insight-num">1</div>
         <div>
-          <div class="insight-title">Strategic Audience Research Period — Gift-Giver Pivot Validated</div>
-          <div class="insight-text">This reporting period was intentionally non-executional. The team paused all legacy expecting-parent sequences to conduct deep audience research — identifying that baby gifters (grandparents, friends, family) represent a stronger product-market fit for Nearly Newborn's digital course than direct parent outreach. The outcome: a new 623-contact Gift-Giver sequence built on Crib/Bedding purchase-intent signals, ready to deploy once email is reconnected.</div>
+          <div class="insight-title">Expecting-Parent Audience Non-Viable — Gift-Giver Angle Is the Only Path Forward</div>
+          <div class="insight-text">The team audited the expecting-parent audience this period and found it below viable threshold: after removing age 35+ contacts and failed skiptrace records, only ~57 real contacts with valid ages remained (~30 female). That's insufficient for a self-enrollment expecting-parent sequence. The Nursery Prep Parent sequence (1,004 raw contacts) was built before this audit and is now deprioritized. The decisive finding: baby gifters are the sole viable audience. The new GifterCribIntent sequence (623 contacts) targets "Crib Mattress and Bedding" purchase-intent signals — people actively buying for a baby — and represents the only path forward.</div>
         </div>
       </div>
       <div class="insight-item">
         <div class="insight-num">2</div>
         <div>
           <div class="insight-title">Product-Aligned Audience Strategy: Gifters, Not Parents</div>
-          <div class="insight-text">Nearly Newborn is a digital course for new and expecting parents that can also be gifted — a key distinction from service-based MMai clients. The most natural buyer is someone looking for a meaningful baby shower or newborn gift. The new Gift-Giver sequence targets people actively searching for crib mattresses and nursery bedding — strong intent signals that they're buying for a baby, making them ideal gift-course prospects.</div>
+          <div class="insight-text">Nearly Newborn is a digital course for new and expecting parents that can also be gifted — a key distinction from service-based MMai clients. The most natural buyer is someone looking for a meaningful baby shower or newborn gift. The GifterCribIntent sequence targets people actively searching for "Crib Mattress and Bedding" — strong intent signals that they're buying for a baby, making them ideal gift-course prospects. This shift from parent-direct to gift-focused messaging is expected to improve open rates, click rates, and course signups vs. the baseline.</div>
         </div>
       </div>
       <div class="insight-item">
@@ -645,8 +645,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
       <div class="insight-item">
         <div class="insight-num">6</div>
         <div>
-          <div class="insight-title">1,627 Contacts Loaded + 1,117 Untapped — Massive Activation Opportunity</div>
-          <div class="insight-text">Combined across both new sequences, 1,627 intent-qualified contacts are loaded and waiting. The Baby Prep Keywords list (1,117 contacts) — flagged in Report #1 as the largest untapped pool — remains unconnected to any active sequence. Together, these represent 2,744 contacts ready for engagement once the email blocker is resolved.</div>
+          <div class="insight-title">623 Gift-Intent Contacts + 1,117 Baby Prep Keywords — 1,740 Deployable</div>
+          <div class="insight-text">The GifterCribIntent sequence has 623 contacts loaded targeting the "Crib Mattress and Bedding" purchase-intent signal — the highest-quality audience layer. The Baby Prep Keywords list (1,117 contacts) — flagged in Report #1 as the largest untapped pool — can be redirected toward the gift angle. Together, these represent 1,740 contacts ready for gift-focused engagement once the email blocker is resolved. The Nursery Prep Parent sequence (1,004 contacts) is deprioritized after the expecting-parent audience audit.</div>
         </div>
       </div>
     </div>
@@ -668,21 +668,21 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
         </div>
         <div class="opt-outcome">
           <div class="opt-part-label">Expected Outcome</div>
-          <div class="opt-part-text">Immediate unblock of all 9 sequences; GifterCribIntent goes live within hours of reconnection.</div>
+          <div class="opt-part-text">Immediate unblock of all sequences; GifterCribIntent goes live within hours of reconnection.</div>
         </div>
       </div>
       <div class="opt-item">
         <div class="opt-trigger">
           <div class="opt-part-label">🎯 Priority #1</div>
-          <div class="opt-part-text">GifterCribIntent sequence (623 contacts, Crib/Bedding intent) is fully built, loaded, and paused — ready to be the first campaign to go live.</div>
+          <div class="opt-part-text">GifterCribIntent sequence (623 contacts, "Crib Mattress and Bedding" intent) is fully built, loaded, and paused — ready to go live as the sole campaign focus.</div>
         </div>
         <div class="opt-action">
           <div class="opt-part-label">Action</div>
-          <div class="opt-part-text"><strong>Activate GifterCribIntent sequence.</strong> Deploy with gift-angle messaging: <em>"Know someone expecting? Give them the prep course most parents wish they'd found sooner."</em> Monitor open rate and click-through to course signup.</div>
+          <div class="opt-part-text"><strong>Activate GifterCribIntent sequence.</strong> Deploy with gift-angle messaging: <em>"Know someone expecting? Give them the prep course most parents wish they'd found sooner."</em> This gift-only angle is expected to outperform the baseline on opens, clicks, and course signups.</div>
         </div>
         <div class="opt-outcome">
           <div class="opt-part-label">Expected Outcome</div>
-          <div class="opt-part-text">First engagement data on the gift-giver audience; opens a second distinct buyer persona channel beyond parent-direct messaging.</div>
+          <div class="opt-part-text">First engagement data on the gift-giver audience; measurable improvement over baseline parent-direct messaging across all engagement metrics.</div>
         </div>
       </div>
       <div class="opt-item">
@@ -692,11 +692,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
         </div>
         <div class="opt-action">
           <div class="opt-part-label">Action</div>
-          <div class="opt-part-text"><strong>Map Baby Prep Keywords list to the Nursery Prep Parent Sequence</strong> or create a dedicated keyword-aligned sequence.</div>
+          <div class="opt-part-text"><strong>Redirect Baby Prep Keywords list to gift-angle messaging.</strong> Create a dedicated gift-focused sequence or merge into GifterCribIntent with keyword-aligned copy.</div>
         </div>
         <div class="opt-outcome">
           <div class="opt-part-label">Expected Outcome</div>
-          <div class="opt-part-text">More than doubles reachable audience; keyword-aligned messaging likely to produce higher relevance match and open rates.</div>
+          <div class="opt-part-text">Nearly doubles reachable audience (from 623 to 1,740); gift-aligned messaging likely to produce higher open and click rates.</div>
         </div>
       </div>
       <div class="opt-item">
@@ -713,22 +713,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
           <div class="opt-part-text">First-period conversion data by Report #3; replaces booking metric as the primary conversion KPI for this client.</div>
         </div>
       </div>
-      <div class="opt-item">
-        <div class="opt-trigger">
-          <div class="opt-part-label">📋 Legacy Cleanup</div>
-          <div class="opt-part-text">7 legacy expecting-parent sequences remain paused with no plans for reactivation. Some contain Gift Giver audiences (825 contacts) that should be migrated.</div>
-        </div>
-        <div class="opt-action">
-          <div class="opt-part-label">Action</div>
-          <div class="opt-part-text"><strong>Audit and consolidate legacy sequences.</strong> Migrate Gift Giver contacts (825) from legacy sequences into the new GifterCribIntent structure. Archive or repurpose remaining parent-direct sequences as secondary nurture tracks.</div>
-        </div>
-        <div class="opt-outcome">
-          <div class="opt-part-label">Expected Outcome</div>
-          <div class="opt-part-text">Cleaner sequence inventory, reduced management overhead, gift-giver audience consolidated under one optimized campaign.</div>
-        </div>
-      </div>
     </div>
-  </section>
+  </section></section>
 
   <!-- CHANGE SUMMARY -->
   <section class="section">
@@ -738,13 +724,14 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
       <div class="change-card">
         <div class="change-card-title" style="color:var(--green)">✅ What Was Built This Period</div>
         <ul class="change-list cl-green">
-          <li>2 new outreach sequences built: GifterCribIntent (623 contacts) + Nursery Prep Parent (1,004 contacts)</li>
+          <li>GifterCribIntent sequence built (623 contacts) on "Crib Mattress and Bedding" purchase-intent signal — flagship gift-giver campaign</li>
           <li>Strategic audience pivot completed: shifted from parent-direct to gift-giver targeting</li>
           <li>GifterCribIntent aligned to "Crib Mattress and Bedding" purchase-intent signal — highest-quality audience layer</li>
           <li>1,627 fresh contacts loaded and ready for deployment</li>
           <li>Gift-angle messaging developed: "Know someone expecting? Here's a gift they'll actually use"</li>
           <li>Conversion model clarified: course signup replaces bookings as the primary KPI</li>
           <li>All 7 legacy sequences audited and paused — no wasted volume on pre-pivot messaging</li>
+          <li>Expecting-parent audience audited: only ~57 valid contacts under 35 (~30 female) — below viable threshold, full pivot to gift-only angle</li>
         </ul>
       </div>
       <div class="change-card">
@@ -752,10 +739,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
         <ul class="change-list cl-yellow">
           <li>Email integration reconnection — single active blocker to go-live (Priority #1)</li>
           <li>GifterCribIntent activation — deploy within hours of email reconnection</li>
-          <li>Baby Prep Keywords list (1,117 contacts) still unmapped — largest dormant audience pool</li>
+          <li>Baby Prep Keywords list (1,117 contacts) still unmapped — redirect to gift angle</li>
           <li>333 pending approvals from baseline still in queue — revise with gift-giver messaging before approval</li>
           <li>Course signup tracking implementation — UTM parameters or pixel needed</li>
-          <li>Legacy sequence cleanup — 7 paused sequences with overlapping audiences</li>
         </ul>
       </div>
       <div class="change-card">
@@ -776,7 +762,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
           <li>Click-through rate to course landing page — new primary conversion metric</li>
           <li>Gift-giver messaging performance vs. baseline parent-direct messaging</li>
           <li>Email deliverability on reconnected sender</li>
-          <li>Baby Prep Keywords list activation results (if mapped to sequence)</li>
+          <li>Baby Prep Keywords list redirected to gift angle — activation results</li>
           <li>Course signup tracking implementation status</li>
         </ul>
       </div>
