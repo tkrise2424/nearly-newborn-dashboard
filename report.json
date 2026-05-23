@@ -1,0 +1,230 @@
+{
+  "client": "Nearly Newborn",
+  "report_number": 2,
+  "report_type": "33-Day Interim Report",
+  "period": {
+    "start": "2026-04-21",
+    "end": "2026-05-23",
+    "days": 33,
+    "label": "33-Day Interim"
+  },
+  "baseline": {
+    "report_number": 1,
+    "period": "10/1/2025 – 4/20/2026",
+    "description": "202-Day Baseline"
+  },
+  "generated": "2026-05-23T14:30:00-04:00",
+  "dashboard_url": "http://nearly-newborn.mercenarymarketing.ai/",
+  "email_sequences": {
+    "overview": {
+      "executions": 3781,
+      "opens": 64,
+      "open_rate": 1.69,
+      "clicks": 0,
+      "click_rate": 0.0,
+      "replies": 0,
+      "reply_rate": 0.0,
+      "bookings": 0,
+      "bounces": 4,
+      "bounce_rate": 0.11,
+      "ooo": 1,
+      "ooo_rate": 0.03,
+      "active_sequences": 0,
+      "paused_sequences": 9
+    },
+    "baseline_comparison": {
+      "executions": {
+        "current": 3781,
+        "baseline": 3781,
+        "delta_pct": 0.0
+      },
+      "opens": {
+        "current": 64,
+        "baseline": 64,
+        "delta_pct": 0.0
+      },
+      "open_rate": {
+        "current": 1.69,
+        "baseline": 1.69,
+        "delta_pp": 0.0
+      },
+      "clicks": {
+        "current": 0,
+        "baseline": 0,
+        "delta_pct": 0.0
+      },
+      "click_rate": {
+        "current": 0.0,
+        "baseline": 0.0,
+        "delta_pp": 0.0
+      },
+      "bounces": {
+        "current": 4,
+        "baseline": 4,
+        "delta_pct": 0.0
+      },
+      "bounce_rate": {
+        "current": 0.11,
+        "baseline": 0.11,
+        "delta_pp": 0.0
+      },
+      "replies": {
+        "current": 0,
+        "baseline": 0,
+        "delta": 0
+      },
+      "bookings": {
+        "current": 0,
+        "baseline": 0,
+        "delta": 0,
+        "note": "Not a relevant conversion metric for this client — Nearly Newborn is a digital course product, not a booked service."
+      },
+      "active_sequences": {
+        "current": 0,
+        "baseline": 7,
+        "delta": -7,
+        "note": "All sequences paused during strategic audience research period."
+      }
+    },
+    "sequences": [
+      {
+        "name": "NearlyNewborn_GifterCribIntent_Outreach_052326_v1",
+        "rep": "Todd (Team)",
+        "sender": "Nearly Newborn",
+        "launch": "2026-05-23",
+        "members": 623,
+        "sent": 0,
+        "opens": 0,
+        "open_rate": 0.0,
+        "clicks": 0,
+        "click_rate": 0.0,
+        "replies": 0,
+        "reply_rate": 0.0,
+        "bounces": 0,
+        "bounce_rate": 0.0,
+        "ooo": 0,
+        "ooo_rate": 0.0,
+        "status": "paused",
+        "notes": "NEW — Built this period targeting baby gifters (Crib/Bedding intent audience). Ready to deploy — blocked by email reconnection. 4-step sequence, 623 contacts loaded."
+      },
+      {
+        "name": "Nearly Newborn — Nursery Prep Parent Sequence",
+        "rep": "Todd (Team)",
+        "sender": "Nearly Newborn",
+        "launch": "2026-05-20",
+        "members": 1004,
+        "sent": 0,
+        "opens": 0,
+        "open_rate": 0.0,
+        "clicks": 0,
+        "click_rate": 0.0,
+        "replies": 0,
+        "reply_rate": 0.0,
+        "bounces": 0,
+        "bounce_rate": 0.0,
+        "ooo": 0,
+        "ooo_rate": 0.0,
+        "status": "paused",
+        "notes": "NEW — Built this period. 1,004 contacts. Paused pending email reconnection and audience strategy finalization."
+      },
+      {
+        "name": "Legacy Expecting Parent Sequences (7 total)",
+        "rep": "Todd (Team)",
+        "sender": "Various",
+        "launch": "2025",
+        "members": 897,
+        "sent": 3781,
+        "opens": 64,
+        "open_rate": 1.69,
+        "clicks": 0,
+        "click_rate": 0.0,
+        "replies": 0,
+        "reply_rate": 0.0,
+        "bounces": 4,
+        "bounce_rate": 0.11,
+        "ooo": 1,
+        "ooo_rate": 0.03,
+        "status": "paused",
+        "notes": "7 legacy sequences from Report #1 baseline period. All paused to redirect focus toward gift-giver audience strategy. Includes Gift Giver sequences (825 contacts) and Baby Prep Keywords list (1,117 contacts — not yet mapped to any sequence)."
+      }
+    ]
+  },
+  "linkedin_prosp": {
+    "active": false,
+    "note": "No LinkedIn/Prosp campaigns for this client.",
+    "campaigns": []
+  },
+  "sequence_audit": {
+    "paused_count": 9,
+    "new_this_period": [
+      {
+        "name": "NearlyNewborn_GifterCribIntent_Outreach_052326_v1",
+        "created": "2026-05-23",
+        "members": 623,
+        "status": "Ready — blocked by email reconnection",
+        "notes": "Flagship new sequence targeting baby gifters via Crib/Bedding purchase-intent signals. Aligned with product model (digital course that can be gifted)."
+      },
+      {
+        "name": "Nearly Newborn — Nursery Prep Parent Sequence",
+        "created": "2026-05-20",
+        "members": 1004,
+        "status": "Paused — pending strategy finalization",
+        "notes": "Parent-direct sequence. Built alongside gift-giver sequence during audience research sprint."
+      }
+    ],
+    "summary": "9 sequences total — 7 legacy (all paused from Report #1), 2 new this period. Email integration disconnected — zero sends this period. Strategic pivot to baby-gifter audience validated by market research."
+  },
+  "key_insights": [
+    {
+      "title": "Strategic Audience Research Period — Gift-Giver Pivot Validated",
+      "detail": "This reporting period was intentionally non-executional. The team paused all legacy expecting-parent sequences to conduct deep audience research — identifying that baby gifters (grandparents, friends, family) represent a stronger product-market fit for Nearly Newborn's digital course than direct parent outreach. The outcome: a new 623-contact Gift-Giver sequence built on Crib/Bedding purchase-intent signals, ready to deploy once email is reconnected."
+    },
+    {
+      "title": "Product-Aligned Audience Strategy: Gifters, Not Parents",
+      "detail": "Nearly Newborn is a digital course for new and expecting parents that can also be gifted — a key distinction from service-based MMai clients. The most natural buyer is someone looking for a meaningful baby shower or newborn gift. The new Gift-Giver sequence targets people actively searching for crib mattresses and nursery bedding — strong intent signals that they're buying for a baby, making them ideal gift-course prospects. This pivot refocuses outreach from 'Are you expecting?' to 'Know someone expecting? Here's a gift they'll actually use.'"
+    },
+    {
+      "title": "Zero Campaign Activity — By Design, Not Inaction",
+      "detail": "All 9 sequences remained paused this period. 3,781 total executions, 64 opens (1.69%), and 0 clicks are unchanged from the baseline — confirming no sends occurred. This was intentional: deploying additional volume into the pre-pivot parent-direct messaging would have burned contacts before the gift-giver strategy was ready. The 623 contacts loaded into the new sequence represent fresh, higher-quality targeting."
+    },
+    {
+      "title": "Email Integration Disconnected — Single Active Blocker",
+      "detail": "The sender email needs to be reconnected in MMai before any sequence can execute. This is the only remaining blocker to go-live for the Gift-Giver sequence. All other infrastructure is in place: 4-step sequence built, 623 contacts loaded, schedule configured, CTA aligned to free course signup."
+    },
+    {
+      "title": "No Bookings Expected — Conversion Model Is Course Signup, Not Appointment",
+      "detail": "Unlike service-based MMai clients, Nearly Newborn's conversion path is: email → click → course landing page → free signup → paid upgrade. Booking metrics are not applicable. Success metrics going forward should focus on click-through rate to the course signup page and free-to-paid conversion tracking once that integration is built."
+    },
+    {
+      "title": "1,627 Total Contacts Loaded in New Sequences — Ready for Activation",
+      "detail": "Combined across both new sequences, 1,627 intent-qualified contacts are loaded and waiting. The 623-contact Gift-Giver sequence (Crib Intent) should be the first to activate given its product alignment. The 1,004-contact Nursery Prep Parent sequence can follow as a secondary audience or be held as a future nurture track."
+    }
+  ],
+  "next_steps": [
+    {
+      "priority": 1,
+      "action": "Reconnect sender email in MMai",
+      "detail": "This is the single active blocker. Once the email integration is reconnected, the Gift-Giver sequence can begin executing immediately. All contacts, steps, and scheduling are configured and ready."
+    },
+    {
+      "priority": 2,
+      "action": "Activate Gift-Giver sequence on reconnected email",
+      "detail": "Deploy NearlyNewborn_GifterCribIntent_Outreach_052326_v1 as the first active campaign. Target: 623 contacts with gift-angle messaging ('Know someone expecting? Give them the prep course most parents wish they'd found sooner'). Monitor open rate and click-through to course signup."
+    },
+    {
+      "priority": 3,
+      "action": "Map Baby Prep Keywords list (1,117 contacts) to a sequence",
+      "detail": "This list was flagged in Report #1 as the largest untapped audience pool. It remains unconnected to any active sequence. Consider mapping it to the Nursery Prep Parent Sequence or creating a dedicated keyword-aligned sequence for it."
+    },
+    {
+      "priority": 4,
+      "action": "Implement course signup tracking",
+      "detail": "Since bookings are not the conversion metric, set up click tracking to the course landing page and explore free-signup conversion tracking (UTM parameters or pixel) to measure actual funnel performance beyond email engagement."
+    },
+    {
+      "priority": 5,
+      "action": "Next report: June 1, 2026 (Monday)",
+      "detail": "Following the 14-day Monday cadence. By then, the email should be reconnected, the Gift-Giver sequence should have 1+ weeks of engagement data, and we'll have the first period-over-period comparison with live campaign metrics."
+    }
+  ]
+}
